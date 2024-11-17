@@ -1,6 +1,7 @@
 magic: install_prerequisites \
 		install_bashrc_incantation \
-		configure_starship
+		configure_starship \
+		cows_free
 
 install_prerequisites: 
 	sudo apt install neofetch figlet cowsay fortune
@@ -11,3 +12,6 @@ install_bashrc_incantation:
 
 configure_starship:
 	cp ./custom_starship_config.toml ~/.config/starship.toml
+
+cows_free:
+	sudo cp ./ranch/* /usr/share/cowsay/cows/
