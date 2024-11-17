@@ -1,0 +1,20 @@
+# Art by Blazej Kozlowski
+# .cow conversion by Max Derner
+
+$the_cow = <<"EOC";
+  $thoughts    _
+   $thoughts   \`*-.
+    $thoughts   )  _`-.
+     $thoughts .  : `. .
+       : _   '  \
+       ; *` _.   `*-._
+       `-.-'          `-.
+         ;       `       `.
+         :.       .        \
+         . \  .   :   .-'   .
+         '  `+.;  ;  '      :
+         :  '  |    ;       ;-.
+         ; '   : :`-:     _.`* ;
+      .*' /  .*' ; .*`- +'  `*'
+      `*-*   `*-*  `*-*'
+EOC
