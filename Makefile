@@ -1,17 +1,20 @@
-magic: prerequisites_installed \
-		bashrc_link_to_postbashrc.sh \
-		starship_work_well \
-		cows_free
+magic: prerequisites-installed \
+		bashrc-link-to-postbashrc.sh \
+		starship-work-well \
+		cows-free
 
-prerequisites_installed: 
+prerequisites-installed: 
 	sudo apt install neofetch figlet cowsay fortune
 	curl -sS https://starship.rs/install.sh | sh
 
-bashrc_link_to_postbashrc.sh:
-	if ! cat ~/magic/bashrc_incantation | xargs -I '#' grep -q -F '#' ~/.bashrc; then cat ~/magic/bashrc_incantation | tee -a ~/.bashrc; fi
+bashrc-link-to-postbashrc.sh:
+	if ! grep -q -F '$(shell cat ~/magic/bashrc_incantation)' ~/.bashrc; then cat ~/magic/bashrc_incantation | tee -a ~/.bashrc; fi
 
-starship_work_well:
+starship-work-well:
 	cp ./custom_starship_config.toml ~/.config/starship.toml
 
-cows_free:
+cows-free:
 	sudo cp ./ranch/* /usr/share/cowsay/cows/
+
+more-figlet-fonts:
+	sudo cp ./figlet-fonts/* "$(shell figlet -I2)"

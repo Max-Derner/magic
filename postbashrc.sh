@@ -34,7 +34,7 @@ alias nn='nano -lim -J 80 -T 4'
 ## -~- -~- -~--~- -~- -~- -~- -~- -~- -~~- -~- -~--~- -~- -~- -~- -~- -~- -~- ##
 
 neofetch
-figlet -tk -w 120 -f alligator Welcome | cowsay -n -f ~/magic/ranch/cat.cow | lolcat
+figlet -tk -w 120 -f alligator Welcome | cowsay -n -f cat | lolcat
 fortune | cowsay -f stegosaurus
 
 
