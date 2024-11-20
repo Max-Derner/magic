@@ -4,7 +4,7 @@ magic: prerequisites-installed \
 		cows-free
 
 prerequisites-installed: 
-	sudo apt install neofetch figlet cowsay fortune
+	sudo apt install neofetch figlet cowsay fortune lolcat
 	curl -sS https://starship.rs/install.sh | sh
 
 bashrc-link-to-postbashrc.sh:
