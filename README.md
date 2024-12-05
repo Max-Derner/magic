@@ -14,6 +14,11 @@ There's a [Makefile](./Makefile) which allows easy setup. It just uses phony tar
 
 There's [figlet-fonts](./figlet-fonts/) which contains all the figlet fonts I have on my machine. Most are included in a default installation of figlet but there's quite a few that I have downloaded especially.
 
+# What does it look like?
+This ->
+![screenshot](./sample_shot.png)  
+That's what it looks like when you start up your terminal.
+
 # Can I use this?
 
 Yeah sure thing friend course you can. Just be aware that this is only tested on my machine because that's all I ever intended for it to work on. But if you want to use it too, just clone this repo into your home directory, cd into it and issue the command `make magic`.
