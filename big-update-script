@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "APT" | figlet
+sudo apt update && sudo apt upgrade
+
+echo "SNAP" | figlet
+sudo snap refresh
+
+echo "BREW" | figlet
+brew update && brew upgrade
