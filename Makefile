@@ -1,3 +1,6 @@
+# These names might feel weird but they make much more sense with the make
+# keyword, such as "make cows-free" or "make a-proper-brew"
+
 magic: fun-things \
 		bashrc-link-to-postbashrc.sh \
 		cool-starship-terminal-interface \

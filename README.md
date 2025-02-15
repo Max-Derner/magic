@@ -1,6 +1,6 @@
 # WELCOME
 
-Hello! If you're reading this then you are a visitor. This project holds all the little bits that make my Linux setup feel like home. Home is having a custom terminal and having a few fun terminal bits installed straight away.
+Hello! If you're reading this then you are a visitor. This project holds all the little bits that make my Linux setup feel like home. Home is having a custom terminal interface and having a few fun bits installed straight away.
 
 # Give us a tour?
 
