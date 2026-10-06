@@ -50,6 +50,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ## -~- -~- -~--~- -~- -~- -~- -~- Landing Page -~--~- -~- -~- -~- -~- -~- -~- ##
 ## -~- -~- -~--~- -~- -~- -~- -~- -~- -~~- -~- -~--~- -~- -~- -~- -~- -~- -~- ##
 
-neofetch
+fastfetch
 cat ~/magic/welcome_text.txt | cowsay -n -f cat
 fortune | cowsay -f stegosaurus

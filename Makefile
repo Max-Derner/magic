@@ -8,7 +8,7 @@ magic: fun-things \
 		cows-free
 
 fun-things: more-figlet-fonts
-	sudo apt install neofetch figlet cowsay fortune
+	sudo apt install fastfetch figlet cowsay fortune
 
 more-figlet-fonts:
 	sudo cp ./figlet-fonts/* "$(shell figlet -I2)"
