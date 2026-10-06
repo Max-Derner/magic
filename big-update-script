@@ -12,3 +12,8 @@ select ANS in 'update' 'stop'; do
     [ $ANS == 'update' ] && { brew upgrade; break; }
     [ $ANS == 'stop' ] && break
 done
+
+if which rustup 1>/dev/null; then
+    echo "RUST" | figlet -f roman;
+    rustup update;
+fi
