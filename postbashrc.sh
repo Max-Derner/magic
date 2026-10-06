@@ -23,7 +23,8 @@
 ##  -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- -~- - ##
 
 alias l='ls -CF'
-alias ll='ls -hlF'
+alias l1='ls -CF1'
+alias ll='ls -CaF'
 alias lll='ls -halF'
 
 alias nn='nano -lim -J 80 -T 4'
