@@ -1,12 +1,12 @@
 #! /bin/bash
 
-echo "APT" | figlet
+echo "APT" | figlet -f roman
 sudo apt update && sudo apt upgrade
 
-echo "SNAP" | figlet
+echo "SNAP" | figlet -f roman
 sudo snap refresh
 
-echo "BREW" | figlet
+echo "BREW" | figlet -f roman
 brew update && brew outdated
 select ANS in 'update' 'stop'; do
     [ $ANS == 'update' ] && { brew upgrade; break; }
