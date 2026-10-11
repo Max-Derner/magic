@@ -52,4 +52,4 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 fastfetch
 cat ~/magic/welcome_text.txt | cowsay -n -f cat
-fortune | cowsay -f stegosaurus
+fortune -s fortunes riddles | cowsay -f stegosaurus
